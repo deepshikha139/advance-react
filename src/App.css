@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 20px;
 }
 
 .App-logo {
@@ -35,4 +36,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.calculator {
+  width: 400px;
+  height: 400px;
+  border: 2px solid black;
+  width: 50vh;
+  height: 50vh;
+  justify-content: center;
+}
+
+.digital-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  grid-gap: 16px;
+  margin-top: 10px;
+}
+
+.calculator-button {
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
 }
