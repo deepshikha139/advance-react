@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+
+}
+.star {
+  font-size: 70px;
+
+}
+.on {
+  color: #000;
+}
+
+.off {
+  color: #ccc;
+}
